@@ -48,6 +48,10 @@ new_exercise(3);
 $str = "“Debugged ! Also very fun”";
 echo mb_substr($str, 1, 10);
 
+
+
+
+
 new_exercise(4);
 // === Exercise 4 ===
 // Sometimes debugging code is just like looking up code and syntax...
@@ -64,6 +68,9 @@ foreach($week as &$day) {
 
 print_r($week);
 
+
+
+
 new_exercise(5);
 // === Exercise 5 ===
 // The array should be printing every letter of the alfabet (a-z) but instead it does that + aa-yz
@@ -77,6 +84,9 @@ for ($letter = 'a'; $letter <= 'z'; $letter++) {
 }
 
 print_r($arr); // Array ([0] => a, [1] => b, [2] => c, ...) a-z alfabetical array
+
+
+
 
 new_exercise(6);
 // === Final exercise ===
